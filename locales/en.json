@@ -1,0 +1,230 @@
+{
+  "lang": "en",
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "barbers": "Barbers",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "location": "Location",
+    "book": "Book Now",
+    "phone": "089 617 5008"
+  },
+  "hero": {
+    "badge": "Varna • 4.9★ from 228 Google reviews",
+    "headline_1": "THE",
+    "headline_2": "BARBER",
+    "headline_3": "KING",
+    "tagline": "Varna's finest barbershop.",
+    "sub": "Precision. Respect. Zero waiting.",
+    "cta_primary": "Book an Appointment",
+    "cta_secondary": "Call Now"
+  },
+  "about": {
+    "section_label": "01 — ABOUT US",
+    "title": "More than a haircut",
+    "body": "THE BARBER KING is built on three pillars: precise craftsmanship, genuine respect for every client, and an appointment system that actually works — no waiting, no chaos. Our chairs have welcomed locals and travellers from across Bulgaria and from many corners of the world. Some clients have been with us since day one. Our goal is simple: everyone leaves looking exactly how they imagined, and looking forward to coming back.",
+    "badges": {
+      "rating": "4.9★",
+      "rating_label": "Average rating",
+      "reviews": "228",
+      "reviews_label": "Google reviews",
+      "hours": "Mon–Sat",
+      "hours_label": "09:30 – 18:30",
+      "appointment": "By appointment",
+      "appointment_label": "No waiting"
+    }
+  },
+  "services": {
+    "section_label": "02 — SERVICES",
+    "title": "Our services",
+    "subtitle": "Choose one service — or stack them for the full treatment.",
+    "from": "from",
+    "currency": "BGN",
+    "price_tbd": "— BGN",
+    "note": "Prices coming soon. Contact us for current rates.",
+    "items": [
+      { "id": "haircut", "name": "Haircut", "desc": "Classic or contemporary cut with scissors or clippers, tailored to your face shape and style.", "icon": "scissors" },
+      { "id": "beard", "name": "Beard Trim & Shape", "desc": "Precise beard shaping and styling with razor and scissors for a clean, defined look.", "icon": "razor" },
+      { "id": "combo", "name": "Hair + Beard Combo", "desc": "The full package — haircut and beard shaping in a single session.", "icon": "combo" },
+      { "id": "shapeup", "name": "Shape-Up / Edges", "desc": "Clean-up of your hairline — neck, temples, and forehead for sharp, crisp edges.", "icon": "shapeup" },
+      { "id": "eyebrow", "name": "Eyebrow Trim", "desc": "Neat, precise eyebrow grooming for a polished, finished appearance.", "icon": "eyebrow" },
+      { "id": "shave", "name": "Razor Clean Shave", "desc": "Traditional hot-towel straight-razor shave for an impossibly smooth finish.", "icon": "shave" },
+      { "id": "color", "name": "Hair Colouring", "desc": "Full colour or root retouch with professional products for a natural-looking result.", "icon": "color" },
+      { "id": "wash", "name": "Shampoo & Styling", "desc": "Deep cleansing shampoo followed by blow-dry and styling to your preference.", "icon": "wash" },
+      { "id": "kids", "name": "Kids' Haircut", "desc": "Patient, gentle haircuts for children in a calm, welcoming environment.", "icon": "kids" }
+    ]
+  },
+  "barbers": {
+    "section_label": "03 — OUR TEAM",
+    "title": "Meet the barbers",
+    "subtitle": "Every barber has their own style and specialty. Pick your favourite.",
+    "book_with": "Book with",
+    "specialty_label": "Specialty",
+    "items": [
+      { "id": "ilker", "name": "Ilker", "specialty": "Classic cuts & sharp lines", "desc": "A craftsman with an eye for detail. Ilker specialises in timeless men's cuts and razor-sharp contours that speak for themselves." },
+      { "id": "emran", "name": "Emran", "specialty": "Speed & precision", "desc": "Fast without sacrificing a single millimetre. Clients return specifically for his precise technique and immaculate beard shaping." },
+      { "id": "toni", "name": "Toni", "specialty": "Modern & trend-forward", "desc": "Always on top of what's current — Toni recreates modern styles with confidence and an effortless touch." },
+      { "id": "borko", "name": "Borko", "specialty": "Traditional barbering", "desc": "The go-to for a traditional hot-towel shave and clean, classic beard work done the right way." }
+    ]
+  },
+  "gallery": {
+    "section_label": "04 — GALLERY",
+    "title": "Our work",
+    "subtitle": "Every cut tells a story. Here's ours.",
+    "placeholder": "Photos coming soon"
+  },
+  "reviews": {
+    "section_label": "05 — REVIEWS",
+    "title": "What clients say",
+    "rating_display": "4.9",
+    "rating_label": "average rating",
+    "review_count": "228 Google reviews",
+    "leave_review": "Leave a review on Google",
+    "items": [
+      {
+        "id": "r1",
+        "name": "Ivan I.",
+        "rating": 5,
+        "date": "5 months ago",
+        "text": "I've been coming to The Barber King for over four years and I have no plans to stop. The guys know exactly what they're doing — hygiene is perfect, the attitude is warm, and the result is always exactly what I wanted. There's always parking nearby too, which is a huge plus."
+      },
+      {
+        "id": "r2",
+        "name": "Petar P.",
+        "rating": 5,
+        "date": "1 month ago",
+        "text": "Exceptional professionalism from start to finish. When it comes to the price-to-quality ratio — there's simply nothing to add. The level of care and attention is rare."
+      },
+      {
+        "id": "r3",
+        "name": "Kristiyan F.",
+        "rating": 5,
+        "date": "5 months ago",
+        "text": "The best barbers in Varna. Emran works incredibly fast and precisely — no mistakes, no compromises. I come regularly and the cut is perfect every single time. Highly recommend!"
+      },
+      {
+        "id": "r4",
+        "name": "Anton V.",
+        "rating": 5,
+        "date": "2 months ago",
+        "text": "Booked a slot online and was seen right on time — not a minute of waiting. I rarely see that level of organisation in a barbershop. The quality of the work matched the experience perfectly."
+      },
+      {
+        "id": "r5",
+        "name": "Rohan S.",
+        "rating": 5,
+        "date": "3 months ago",
+        "text": "I was visiting Varna for a week and asked a local where to get a proper haircut. They sent me here — and I'm glad they did. Easily the best haircut I got during the entire trip. The barbers are skilled, attentive, and the atmosphere is exactly right."
+      },
+      {
+        "id": "r6",
+        "name": "Viktor N.",
+        "rating": 5,
+        "date": "6 months ago",
+        "text": "I've been coming here since they first opened. The shop has grown, but the spirit is the same — attention to every client, quality without compromise. Coming here always feels like visiting old friends."
+      }
+    ]
+  },
+  "booking": {
+    "section_label": "06 — BOOKING",
+    "title": "Book your appointment",
+    "subtitle": "Choose your service, barber, and a time that works for you.",
+    "steps": {
+      "services": "Services",
+      "barber": "Barber",
+      "datetime": "Date & Time",
+      "contact": "Contact",
+      "review": "Confirm"
+    },
+    "step1": {
+      "title": "What would you like?",
+      "subtitle": "You can select more than one service.",
+      "next": "Continue"
+    },
+    "step2": {
+      "title": "Choose a barber",
+      "subtitle": "Or let us assign the next available.",
+      "no_preference": "No preference",
+      "no_preference_desc": "We'll assign you to the next available barber.",
+      "next": "Continue"
+    },
+    "step3": {
+      "title": "When suits you?",
+      "subtitle": "Choose a date and available time slot.",
+      "no_slots": "No available slots for this date.",
+      "next": "Continue"
+    },
+    "step4": {
+      "title": "Your details",
+      "subtitle": "So we can confirm your booking.",
+      "name": "Your name *",
+      "name_placeholder": "John Smith",
+      "phone": "Phone *",
+      "phone_placeholder": "089 XXX XXXX",
+      "email": "Email (optional)",
+      "email_placeholder": "you@example.com",
+      "notes": "Notes (optional)",
+      "notes_placeholder": "Special requests or questions...",
+      "phone_error": "Please enter a valid Bulgarian mobile number.",
+      "name_error": "Please enter your name.",
+      "next": "Review booking"
+    },
+    "step5": {
+      "title": "Everything look good?",
+      "subtitle": "Review the details and confirm.",
+      "services_label": "Services",
+      "barber_label": "Barber",
+      "datetime_label": "Date & Time",
+      "name_label": "Name",
+      "phone_label": "Phone",
+      "notes_label": "Notes",
+      "submit": "Confirm Booking",
+      "submitting": "Sending..."
+    },
+    "success": {
+      "title": "Booking received!",
+      "body": "We'll be in touch shortly to confirm. Or message us directly on WhatsApp for an instant reply.",
+      "whatsapp": "Confirm via WhatsApp",
+      "calendar": "Add to calendar",
+      "new_booking": "Make another booking"
+    },
+    "no_preference_label": "No preference"
+  },
+  "location": {
+    "section_label": "07 — LOCATION",
+    "title": "Find us",
+    "address": "72 Doctor Piskyuliev St, Hristo Botev / Odesos, 9000 Varna",
+    "landmark": "Inside the Kolhozen Pazar market complex — parking is directly at the entrance.",
+    "accessibility": "Accessible parking · Toilet on site",
+    "hours_title": "Opening hours",
+    "hours": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday",
+      "open": "09:30 – 18:30",
+      "closed": "Closed"
+    },
+    "cta_call": "Call us",
+    "cta_whatsapp": "WhatsApp",
+    "cta_navigate": "Get directions"
+  },
+  "footer": {
+    "tagline": "Varna's finest barbershop.",
+    "social_instagram": "Instagram",
+    "social_facebook": "Facebook",
+    "social_google": "Google Maps",
+    "credit": "Built by",
+    "credit_link": "Orvexis IV",
+    "gdpr": "Information shared during booking is stored solely for appointment confirmation and is never shared with third parties."
+  },
+  "mobile_cta": {
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "book": "Book Now"
+  }
+}
