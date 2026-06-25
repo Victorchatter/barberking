@@ -4,6 +4,8 @@ import { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { useLang } from '@/context/LanguageContext';
 
+const HAS_PHOTO = new Set(['ilker']);
+
 export default function Barbers() {
   const { t } = useLang();
   const sectionRef = useRef<HTMLElement>(null);
@@ -44,20 +46,22 @@ export default function Barbers() {
             <div key={barber.id} className="bg-bk-surface group relative overflow-hidden">
               {/* Photo */}
               <div className="relative aspect-[3/4] overflow-hidden bg-bk-raised">
-                <Image
-                  src={`/images/barbers/${barber.id}.jpg`}
-                  alt={barber.name}
-                  fill
-                  className="object-cover photo-grade group-hover:scale-105 transition-transform duration-700"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                />
-                {/* Placeholder overlay when no real photo */}
-                <div className="absolute inset-0 flex flex-col items-center justify-center bg-bk-raised">
-                  <svg viewBox="0 0 24 24" fill="none" className="w-12 h-12 text-bk-border mb-3" stroke="currentColor">
-                    <circle cx="12" cy="8" r="4"/><path d="M8 14c-4 1-6 4-6 6h20c0-2-2-5-6-6"/>
-                  </svg>
-                  <span className="text-bk-border text-xs font-body tracking-wider">{barber.name}</span>
-                </div>
+                {HAS_PHOTO.has(barber.id) ? (
+                  <Image
+                    src={`/images/barbers/${barber.id}.jpg`}
+                    alt={barber.name}
+                    fill
+                    className="object-cover photo-grade group-hover:scale-105 transition-transform duration-700"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  />
+                ) : (
+                  <div className="absolute inset-0 flex flex-col items-center justify-center bg-bk-raised">
+                    <svg viewBox="0 0 24 24" fill="none" className="w-12 h-12 text-bk-border mb-3" stroke="currentColor">
+                      <circle cx="12" cy="8" r="4"/><path d="M8 14c-4 1-6 4-6 6h20c0-2-2-5-6-6"/>
+                    </svg>
+                    <span className="text-bk-border text-xs font-body tracking-wider">{barber.name}</span>
+                  </div>
+                )}
                 {/* Gold accent line on hover */}
                 <div className="absolute bottom-0 left-0 w-full h-0.5 bg-bk-gold transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
               </div>

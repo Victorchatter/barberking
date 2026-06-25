@@ -4,17 +4,16 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import Image from 'next/image';
 import { useLang } from '@/context/LanguageContext';
 
-// Slot list — drop real files here; missing ones show placeholder
 const SLOTS = [
-  { src: '/images/gallery/g01.jpg', alt: 'Haircut result 1' },
-  { src: '/images/gallery/g02.jpg', alt: 'Beard shaping' },
-  { src: '/images/gallery/g03.jpg', alt: 'Haircut result 2' },
-  { src: '/images/gallery/g04.jpg', alt: 'Shop interior' },
-  { src: '/images/gallery/g05.jpg', alt: 'Razor shave' },
-  { src: '/images/gallery/g06.jpg', alt: 'Haircut result 3' },
-  { src: '/images/gallery/g07.jpg', alt: 'Barber at work' },
-  { src: '/images/gallery/g08.jpg', alt: 'Beard trim closeup' },
-  { src: '/images/gallery/g09.jpg', alt: 'Haircut result 4' },
+  { src: '/images/gallery/g01.jpg', alt: 'Отборна снимка пред THE BARBER KING' },
+  { src: '/images/gallery/g02.jpg', alt: 'Витрина на THE BARBER KING, Варна' },
+  { src: '/images/gallery/g03.jpg', alt: 'Интериор при откриването' },
+  { src: '/images/gallery/g04.jpg', alt: 'Бръснарите на THE BARBER KING' },
+  { src: '/images/gallery/g05.jpg', alt: 'Салонът — черни кресла и мраморни стени' },
+  { src: '/images/gallery/g06.jpg', alt: 'Екипът в действие' },
+  { src: '/images/gallery/g07.jpg', alt: 'Портрет на бръснар' },
+  { src: '/images/gallery/g08.jpg', alt: 'Прецизно подстригване' },
+  { src: '/images/gallery/g09.jpg', alt: 'Фасада на THE BARBER KING' },
 ];
 
 export default function Gallery() {
@@ -80,12 +79,6 @@ export default function Gallery() {
                   className="object-cover photo-grade group-hover:scale-105 transition-transform duration-700"
                   sizes="(max-width: 768px) 50vw, 33vw"
                 />
-                {/* Placeholder */}
-                <div className="absolute inset-0 bg-bk-raised flex items-center justify-center">
-                  <svg viewBox="0 0 24 24" fill="none" className="w-8 h-8 text-bk-border" stroke="currentColor">
-                    <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/>
-                  </svg>
-                </div>
                 {/* Hover overlay */}
                 <div className="absolute inset-0 bg-bk-gold/0 group-hover:bg-bk-gold/10 transition-colors duration-300" />
                 <div className="absolute inset-0 border border-transparent group-hover:border-bk-gold transition-colors duration-300" />
